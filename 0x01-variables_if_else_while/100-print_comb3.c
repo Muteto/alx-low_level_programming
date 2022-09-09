@@ -7,17 +7,18 @@
 int main(void)
 {
 	int i = 0;
-	int x = 0;
+	int x;
 
 	while (i < 10)
 	{
+		x = 0;
 		while (x < 10)
 		{
 			if (i != x && i < x)
 			{
 				putchar('0' + i);
 				putchar('0' + x);
-				if (c + d != 17)
+				if (i + x != 17)
 				{
 					putchar(',');
 					putchar(' ');
