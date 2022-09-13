@@ -2,14 +2,14 @@
 #include "main.h"
 
 /**
- * print_aphabet - prints the lower case alphabets
+ * print_alphabet - prints the lower case alphabets
  * Return: nothing
  */
 void print_alphabet(void)
 {
 	char c = 'a';
 
-	while (c <= 'a')
+	while (c <= 'z')
 	{
 		_putchar(c);
 		c++;
